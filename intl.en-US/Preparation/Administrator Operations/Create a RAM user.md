@@ -4,7 +4,7 @@ If you are the only user of this product, skip this section. To create your own 
 
 ## Create a sub-account {#section_v3r_xxp_r2b .section}
 
-1.  Log on to the Alibaba Cloud DTplus Console with the primary account. Choose **RAM** \> **Indentities** \> **Users**.
+1.  Log on to the Alibaba Cloud DTplus Console with the primary account. Choose **RAM** \> **Identity Management** \> **Users**.
 2.  Click **Create User**.
 3.  Enter the user information.
 4.  Click **OK** to complete the user creation.
@@ -19,13 +19,13 @@ If you are the only user of this product, skip this section. To create your own 
 The AccessKey facilitates smooth operation of the tasks created in DataWorks. Therefore, a primary account must create an AccessKey for the RAM user, or allow RAM account users to create and manage their own AccessKey information.
 
 -   **Create an AccessKey for a RAM user**
-    1.  Use your primary account to log on to the **RAM** \> **Indentities** \> **Users** page, and click RAM user account.
+    1.  Use your primary account to log on to the **RAM** \> **Identity Management** \> **Users** page, and click RAM user account.
     2.  Click **Create AccessKey**, and enter the verification code sent to your mobile phone. The AccessKey is created for the RAM user account.
 
         **Note:** The AccessKeySecret of the RAM user will appear only once. Please record the AccessKeySecret and keep it confidential. If you lose it, create a new one.
 
 -   **Authorize the RAM users to create and manage their own AccessKeys**
-    1.  The main account enters the **RAM** \> **Indentifies** \> **Settings** page, click **update RAM User Security Settings** from the Actions column.
+    1.  The main account enters the **RAM** \> **Identity Management** \> **Settings** page, click **update RAM User Security Settings** from the Actions column.
     2.  Select RAM User Security Settings tab, and select **Manage AccessKey** \> **allowed**, click **OK** to complete settings.
 
         If this option is not selected, by default the RAM user cannot create nor manage AccessKey. After **allow the user to manage their own AccessKey**, RAM user account logon to Alibaba cloud, you can create the AccessKey in the console.
